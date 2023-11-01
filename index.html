@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+    <title>2048</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        body {
+            width: 70%;
+            max-width: 960px;
+            margin: 20px auto;
+        }
+
+
+
+        div {
+            /* height: 100px; try to move this to a new place  */
+            height: 100px;
+            border: 1px solid orange;
+
+        }
+
+        .rows {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .grid {
+            flex: 1;
+            background-color: blueviolet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+
+        /* Add your flexbox CSS below here */
+    </style>
+</head>
+
+<body>
+    <div class="game">
+        <div class="rows">
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+        </div>
+        <div class="rows">
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+        </div>
+        <div class="rows">
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+        </div>
+        <div class="rows">
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+            <div class="grid">
+                0
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

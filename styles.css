@@ -1,0 +1,13 @@
+p {
+    color: red;
+}
+
+li {
+    border: 2px solid blue;
+    padding: .5em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
